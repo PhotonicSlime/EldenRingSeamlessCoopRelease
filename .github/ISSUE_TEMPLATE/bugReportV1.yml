@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: Crash on invade for certain quests
+description: When trying to invade for certain quests the game crashes making them impossible to complete.
 title: "[Bug]: "
 labels: ["bug"]
 assignees:
@@ -21,7 +21,7 @@ body:
     id: contact
     attributes:
       label: Discord Username
-      description: If you wish, provide us your Discord Username to contact you if we need more info.
+      description: photonicslime
       placeholder: ex. Loki2236#4999
     validations:
       required: false
@@ -29,7 +29,7 @@ body:
     id: what-happened
     attributes:
       label: Describe the issue in detail
-      description: Also tell us, what did you expect to happen?
+      description: First encountered the bug when doing the Yura questline, at one point you have to invade someone in front of the Academy, once you interact with the Invade sign the game crashes, same happened following the Sellen's questline.
       placeholder: "I was fighting Godrick and he healed himself when Rogier died!"
     validations:
       required: true
@@ -37,7 +37,7 @@ body:
     id: steps-recreate
     attributes:
       label: Steps to recreate the bug
-      description: Note areas, number of people, enemies and prior events if applicable
+      description: Complete the questline to the point where you have to invade someone and try to invade them with the sign on the ground.
       placeholder: "Go to godrick fight, summon rogier while playing coop. Let godrick kill Rogier, watch him heal."
     validations:
       required: true
@@ -45,7 +45,7 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of the mod are you running?
+      description: Version 2.0.0
       options:
         - Select version
         - 1.5.1 (Latest)
